@@ -1,0 +1,6 @@
+name: "refArticle"
+description: "RefArticle from a desired client"
+in: "query"
+required: false
+schema:
+  type: "string"
