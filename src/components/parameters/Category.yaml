@@ -1,0 +1,6 @@
+name: "category"
+description: "category of desired product."
+in: "query"
+required: false
+schema:
+  $ref: "#/components/schemas/Categories"

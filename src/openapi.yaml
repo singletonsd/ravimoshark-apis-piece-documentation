@@ -25,6 +25,13 @@ info:
 externalDocs:
   description: Find out how to interact with Ravimoshark's APIs.
   url: 'https://ravimoshark.com/back/apis/auth/latest'
+tags:
+  - name: Products
+    description: Operations about products.
+  - name: Categories
+    description: Operations about categories.
+  - name: Pieces
+    description: Operations about pieces.
 servers:
   - url: 'http://localhost:8003'
   - url: 'https://ravimoshark.com/back/apis/piece/v1'
