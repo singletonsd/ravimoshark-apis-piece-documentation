@@ -1,0 +1,9 @@
+type: string
+default: ALL
+enum:
+  - ALL
+  - DETERGENTS
+  - DISHWASHER
+  - MACHINES
+  - REPAIRED_PIECES
+  - WATER_TREATMENT

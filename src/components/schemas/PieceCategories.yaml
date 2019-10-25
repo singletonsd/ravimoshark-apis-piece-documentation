@@ -1,0 +1,15 @@
+description: Pieces categories information.
+type: object
+properties:
+  name:
+    type: string
+  imagePath:
+    type: string
+  createdAt:
+    type: string
+    format: date
+  updatedAt:
+    type: string
+    format: date
+  deleted:
+    type: boolean

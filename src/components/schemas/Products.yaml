@@ -1,0 +1,25 @@
+description: Products information.
+type: object
+properties:
+  piece:
+    $ref: "#/components/schemas/Pieces"
+  refArticle:
+    type: string
+  card:
+    $ref: "#/components/schemas/PieceCards"
+  pieceDetails:
+    type: array
+    items:
+      $ref: "#/components/schemas/PieceDetails"
+  pieceKeyPoints:
+    type: array
+    items:
+      $ref: "#/components/schemas/PieceKeyPoints"
+  createdAt:
+    type: string
+    format: date
+  updatedAt:
+    type: string
+    format: date
+  deleted:
+    type: boolean

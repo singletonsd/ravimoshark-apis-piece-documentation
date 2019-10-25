@@ -1,0 +1,23 @@
+description: Pieces Key Point information.
+type: object
+properties:
+  id:
+    type: integer
+    format: int64
+  piece:
+    $ref: "#/components/schemas/Pieces"
+  refArticle:
+    type: string
+  content:
+    type: string
+  line:
+    type: integer
+    format: int64
+  createdAt:
+    type: string
+    format: date
+  updatedAt:
+    type: string
+    format: date
+  deleted:
+    type: boolean

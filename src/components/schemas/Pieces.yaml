@@ -1,0 +1,35 @@
+description: Pieces information.
+type: object
+properties:
+  refArticle:
+    type: string
+  name:
+    type: string
+  state:
+    type: string
+  priceSale:
+    type: number
+    format: float
+  saleUnit:
+    type: number
+    format: float
+  family:
+    type: string
+  priceLastPurchase:
+    type: number
+    format: float
+  packaging:
+    type: string
+  detergentType:
+    type: string
+  weight:
+    type: number
+    format: float
+  createdAt:
+    type: string
+    format: date
+  updatedAt:
+    type: string
+    format: date
+  deleted:
+    type: boolean

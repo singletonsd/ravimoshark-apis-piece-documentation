@@ -1,0 +1,5 @@
+description: Piece's reference.
+type: object
+properties:
+  refContract:
+    type: string
