@@ -14,7 +14,7 @@ info:
 
     # Introduction
 
-    This API allow to create, modify and delete pieces, products and sheets.
+    This API allow to create, modify and delete pieces and products (cards, details and key points).
 
     # User Authentication
 

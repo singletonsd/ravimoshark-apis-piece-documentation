@@ -10,9 +10,11 @@ properties:
     type: string
   description:
     type: string
-  category:
+  categoryId:
     type: string
-  imagePath:
+  category:
+    $ref: "#/components/schemas/PieceCategories"
+  imageName:
     type: string
   createdAt:
     type: string
