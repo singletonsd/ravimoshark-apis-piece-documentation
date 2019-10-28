@@ -3,5 +3,4 @@ description: "reference of piece to delete or search"
 in: "path"
 required: true
 schema:
-  type: "integer"
-  format: "int64"
+  type: "string"
