@@ -1,0 +1,11 @@
+type: oauth2
+flows:
+  implicit:
+    authorizationUrl: 'http://localhost:9090.com/auth'
+    scopes:
+      'read:category': read category info.
+      'write:category': create, modify or remove category.
+      'read:piece': read piece info.
+      'write:piece': create, modify or remove piece.
+      'read:product': read product info.
+      'write:product': create, modify or remove product.

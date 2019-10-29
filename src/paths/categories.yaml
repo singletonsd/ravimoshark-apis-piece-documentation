@@ -41,3 +41,7 @@ get:
     '405':
       $ref: '#/components/responses/405'
   x-swagger-router-controller: Categories
+  security:
+    - main_auth:
+      - 'read:category'
+    - api_key: []
