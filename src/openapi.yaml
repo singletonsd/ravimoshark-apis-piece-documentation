@@ -33,6 +33,6 @@ tags:
   - name: Pieces
     description: Operations about pieces.
 servers:
-  - url: 'http://localhost:8003'
+  - url: 'http://localhost:8000'
   - url: 'https://ravimoshark.com/back/apis/piece/v1'
   - url: 'https://ravimoshark.com/back/apis/piece/latest'

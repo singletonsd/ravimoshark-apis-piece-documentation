@@ -23,3 +23,8 @@ get:
     405:
       $ref: "#/components/responses/405"
   x-swagger-router-controller: "Pieces"
+  security:
+    - api_key: []
+    - bearer_auth: []
+    - main_auth:
+      - 'read:piece'
